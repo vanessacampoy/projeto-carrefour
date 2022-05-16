@@ -1,0 +1,1466 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", Arial, Helvetica,
+    sans-serif;
+}
+
+/*mudança do cor da barra lateral do site*/
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ced4da;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  border-radius: 2px ;
+  background-color: #1e5bc6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/*Imagem banner ovos de páscoa*/
+.banner1 {
+  display: grid;
+  max-width: 100%;
+  height: 50px;
+}
+/*-------------------------------*/
+
+/*Menu shopping/ mercado/ serviço*/
+.menu1 {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  margin-top: -5px;
+  background: #e4e4e4;
+  max-width: 100%;
+  height: 34px;
+  position: relative;
+}
+
+.shopping {
+  display: block;
+  background: #fff;
+  padding: 8px 25px;
+  margin-top: 5px;
+  margin-left: 40px;
+  border-radius: 4px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.shopping a {
+  color: #2f67ca;
+}
+
+.shopping:hover {
+  background: #f8f9fa;
+  transition: 0.1s ease-out;
+}
+
+.mercado {
+  background: #dc1c24;
+  padding: 6px 25px;
+  margin-top: 5px;
+  margin-left: 165px;
+  border-radius: 4px 4px 0px 0px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.mercado a {
+  color: #fff;
+}
+
+.mercado:hover {
+  background: #e71017;
+  transition: 0.1s ease-out;
+}
+
+.servicos {
+  background: #022768;
+  padding: 6px 25px;
+  margin-top: 5px;
+  margin-left: 285px;
+  border-radius: 4px 4px 0px 0px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.servicos a {
+  color: #fff;
+}
+
+.servicos:hover {
+  background: #061e47;
+  transition: 0.1s ease-out;
+}
+/*-------------------------------*/
+
+/*Sessão de atendimento banner cinza*/
+.menu2 {
+  position: absolute;
+  display: flex;
+  gap: 25px;
+  font-size: 12px;
+  margin-top: -40px;
+  margin-left: 760px;
+}
+
+.menu2 a {
+  color: #495057;
+}
+
+.menu2 a:hover {
+  color: #205cc5;
+  transition: 0.1s ease-out;
+}
+/*-------------------------------*/
+
+/*Banner branco com a logo do Carrefour*/
+.carrefour {
+  position: relative;
+  background: #fff;
+  max-width: 100%;
+  height: 60px;
+  margin-top: -14px;
+}
+
+.logo {
+  margin-left: 70px;
+  width: 15%;
+  height: 100%;
+}
+
+.pesquise {
+  padding: 9px 120px;
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 20px;
+  border: solid 1px #1e5bc6;
+  border-radius: 4px;
+}
+
+.icon-lupa {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 446px;
+  padding: 6px 10px;
+  background: #1e5bc6;
+  border-radius: 2px;
+}
+
+.icon-user {
+  position: absolute;
+  margin-top: -67px;
+  margin-left: 730px;
+}
+
+.bemvindo {
+  color: #333333;
+  position: absolute;
+  margin-top: -65px;
+  margin-left: 765px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bemvindo a:hover {
+  color: #1e5bc6;
+}
+
+.entre {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 765px;
+  font-size: 12px;
+}
+
+.entre a:hover {
+  color: #1e5bc6;
+}
+
+.icon-moeda {
+  position: absolute;
+  margin-top: -67px;
+  margin-left: 850px;
+}
+
+.moeda {
+  position: absolute;
+  margin-top: -67px;
+  margin-left: 885px;
+  font-size: 12px;
+  width: 20px;
+}
+
+.moeda a:hover {
+  color: #1e5bc6;
+}
+
+.icon-mercado {
+  position: absolute;
+  margin-top: -67px;
+  margin-left: 960px;
+}
+
+.mercado1 {
+  position: absolute;
+  margin-top: -67px;
+  margin-left: 995px;
+  font-size: 12px;
+  width: 20px;
+}
+
+.mercado1 a:hover {
+  color: #1e5bc6;
+}
+
+.icon-heart {
+  position: absolute;
+  margin-top: -69px;
+  margin-left: 1055px;
+}
+
+.heart {
+  position: absolute;
+  margin-top: -69px;
+  margin-left: 1090px;
+  font-size: 12px;
+  width: 20px;
+}
+
+.heart a:hover {
+  color: #1e5bc6;
+}
+
+.icon-carrinho {
+  position: absolute;
+  margin-top: -67px;
+  margin-left: 1140px;
+}
+/*------------------------------------*/
+
+/*Banner azul com sessões da loja*/
+.background-azul {
+  display: block;
+  font-size: 13px;
+  max-width: 100%;
+  background: #1e5bc6;
+  height: 41px;
+  display: flex;
+  flex: wrap;
+  position: relative;
+}
+
+.lista-suspensa { /*todos os departamentos*/
+  position: relative;
+  display: inline-block;
+}
+
+.lista-suspensa-texto {
+  background-color: #1e5bc6;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.lista-suspensa-texto:hover {
+  background-color: #fff;
+  color: #1e5bc6;
+  padding: 2px 8px 7px 4px;
+  border-radius: 4px 4px 0 0;
+}
+
+.lista-suspensa-conteudo { /*dropdown*/
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  margin-left: 70px;
+  z-index: 1;
+}
+
+.lista-suspensa-conteudo a {
+  color: #000;
+  padding: 12px 16px;
+  display: block;
+}
+
+.lista-suspensa-conteudo a:hover {
+  color: #1e5bc6;
+  background-color: #f1f1f1;
+  text-decoration: underline;
+  transition: 0.2s ease-out;
+}
+
+.lista-suspensa:hover .lista-suspensa-conteudo {
+  display: block; 
+}
+
+.lista-suspensa:hover {
+  color: #fff;
+  background-color: #1e5bc6;
+  padding: 5px 10px 5px 5px;
+}
+
+.departamentos {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 260px;
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.departamentos a {
+  color: #fff;
+  background: #1e5bc6;
+  border-color: 1px solid transparent;
+}
+
+.departamentos a:hover {
+  background-color: #fff;
+  color: #1e5bc6;
+  border-radius: 4px 4px 0 0;
+  padding: 2px 5px 14px 5px;
+  transform: scale(1.5);
+}
+
+.departamentos-texto a {
+  color: #fff;
+}
+
+/*.departamentos-texto p {
+  font-size: 15px;
+  border-radius: 4px 4px 0 0;
+  padding: 5px 5px;
+}*/
+
+.departamentos-texto a:hover {
+  font-size: 2.2vh;
+  border-radius: 4px 4px 0 0;
+  color: #1e5bc6;
+  background: #fff;
+  padding: 2px 5px 14px 5px;
+  transition: 0.2s ease-out;
+}
+
+.cartaocarrefour-texto {
+  font-size: 14px;
+  font-weight: bold;
+}
+/*------------------------------------*/
+
+/*Sessão de localização*/
+.icon-localizacao {
+  margin-top: 10px;
+  margin-left: 75px;
+  position: relative;
+}
+
+.ofertas-sp {
+  margin-top: -22px;
+  margin-left: 105px;
+  font-size: 12px;
+  color: #02296d;
+  position: relative;
+}
+
+.ofertas-sp span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.icon-setacirculo {
+  margin-top: -33px;
+  margin-left: 265px;
+  font-size: 12px;
+  position: absolute;
+}
+
+/*------------------------------------*/
+/* redes sociais */
+.sidebar-redes-sociais {
+  position: fixed;
+  margin-top: 0px;
+  margin-left: -35px;
+  padding: 5px;
+  z-index: 2;
+}
+
+.sidebar-redes-sociais img {
+  box-shadow: 2px 2px 2px 2px #ced4da;
+  border-radius: 4px;
+}
+
+.sidebar-redes-sociais img:hover {
+  transform: scale(0.9);
+  transition: transform 0.2s;
+}
+
+/*imagem smart tvs*/
+.banner2 {
+  max-width: 88%;
+  height: 100px;
+  margin-left: 80px;
+  border-radius: 3px;
+}
+
+@media (max-width: 760px) {
+  .banner2 {
+    grid-template-columns: 1fr;
+    max-width: 70%;
+    align-items: center;
+  }
+}
+/*------------------------------------*/
+
+.carrossel {
+  max-width: 500px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.carrossel img {
+  height: 330px;
+  max-width: 1115px;
+  margin-left: 80px;
+  border-radius: 3px;
+}
+
+.next {
+  right: 0;
+}
+
+.seta-esquerda {
+  margin-left: 625px;
+  margin-top: 2px;
+  position: absolute;
+}
+
+.seta-direita {
+  margin-left: 635px;
+  margin-top: 2px;
+  position: absolute;
+}
+
+/*------------------------------------*/
+
+/* 4 imagens promoçao*/
+.oferta-4img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.oferta-4img img {
+  width: 271px;
+  height: 266px;
+  border-radius: 4px;
+}
+
+@media (max-width: 760px) {
+  .oferta-4img {
+    grid-template-columns: 1fr 1fr;
+    width: 261px;
+    height: 256px;
+  }
+
+  @media (max-width: 600px) {
+    .oferta-4img {
+      grid-template-columns: 1fr;
+      width: 241px;
+      height: 246px;
+      margin-left: 100px;
+    }
+  }
+}
+/*------------------------------------*/
+
+/*Produtos Patrocinados*/
+.patrocinados {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: -20px;
+}
+
+.patrocinados-texto {
+  font-size: 24px;
+  padding: 15px;
+  margin-top: 320px;
+  margin-left: 70px;
+  color: #02296d;
+  font-weight: 400;
+  position: relative;
+}
+
+.patrocinados img {
+  width: 160px;
+  height: 160px;
+}
+
+.patrocinados img:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s;
+}
+
+.texto-produto {
+  font-weight: 500;
+  color: #333333;
+}
+
+.valor {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e5bc6;
+}
+
+.texto-boleto {
+  font-size: 11px;
+}
+
+.texto-riscado {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.patrocinado-1 {
+  background-color: #fff;
+  width: 220px;
+  height: 300px;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;
+  padding: 30px 12px 16px 20px;
+}
+
+.patrocinado-1 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 180px;
+  margin-left: 20px;
+}
+
+.patrocinado-2 {
+  background-color: #fff;
+  width: 220px;
+  height: 300px;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;
+  padding: 30px 12px 16px 20px;
+}
+
+.patrocinado-2 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 180px;
+}
+
+.patrocinado-3 {
+  background-color: #fff;
+  width: 220px;
+  height: 300px;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;
+  padding: 30px 12px 16px 20px;
+}
+
+.patrocinado-3 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 180px;
+}
+
+.patrocinado-4 {
+  background-color: #fff;
+  width: 220px;
+  height: 300px;
+  border-radius: 2px;
+  border: 1px solid #ced4da;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 14px;
+  padding: 30px 12px 16px 20px;
+}
+
+.patrocinado-4 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 180px;
+}
+
+.tvsmart {
+  margin-left: 24px;
+}
+/*------------------------------------*/
+
+/*Os melhores smartphones, pra você escolher!*/
+.smartphones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+
+.smartphones-texto {
+  font-size: 24px;
+  margin-top: 400px;
+  margin-left: 90px;
+  color: #02296d;
+  font-weight: 400;
+  position: relative;
+}
+
+.smart-1 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.smart-1 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+  margin-left: 20px;
+}
+
+.smart-2 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.smart-2 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+
+.smart-3 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.smart-3 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+
+.smart-4 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.smart-4 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+
+.smart-5 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.smart-5 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+/*------------------------------------*/
+
+/*As melhores oportunidades para as suas compras!*/
+
+.oportunidades-texto {
+  font-size: 24px;
+  padding: 15px;
+  margin-top: 410px;
+  margin-left: 70px;
+  color: #02296d;
+  font-weight: 400;
+  position: relative;
+}
+
+.item-oportunidades img {
+  width: 120px;
+  height: 120px;
+}
+
+.item-oportunidades img:hover {
+  width: 122px;
+  height: 122px;
+}
+
+.texto-hover {
+  text-align: center;
+  font-size: 13px;
+  color: #333333;
+}
+
+.item-oportunidades {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-left: 50px;
+  justify-items: center;
+  position: absolute;
+}
+
+.item-oportunidades a:hover {
+  color: #333333;
+  transition: 0.2s ease-out;
+}
+
+.item-ofertas {
+  position: relative;
+  font-size: 24px;
+  padding: 15px;
+  margin-left: 100px;
+  color: #02296d;
+  font-weight: 400;
+}
+
+@media (max-width: 760px) {
+  .item-oportunidades {
+    position: relative;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  @media (max-width: 600px) {
+    .item-oportunidades {
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      width: 90px;
+      height: 90px;
+    }
+  }
+}
+/*------------------------------------*/
+
+/*As melhores ofertas para você economizar!*/
+.img1 {
+  background-image: url(imagem/img18.webp);
+  background-position-x: -194px;
+  background-position-y: 0px;
+  background-size: 800px;
+  border-radius: 5px;
+  height: 190px;
+  width: 370px;
+  background-image: no-repeat;
+}
+
+.img2 {
+  background-image: url(imagem/img19.webp);
+  background-position-x: -200px;
+  background-position-y: 0px;
+  background-size: 800px;
+  border-radius: 5px;
+  height: 190px;
+  width: 370px;
+  background-image: no-repeat;
+}
+
+.img3 {
+  background-image: url(imagem/img20.webp);
+  background-position-x: -200px;
+  background-position-y: 0px;
+  background-size: 800px;
+  border-radius: 5px;
+  height: 190px;
+  width: 370px;
+  background-image: no-repeat;
+}
+
+.ofertas-texto {
+  font-size: 24px;
+  padding: 15px 0;
+  margin-top: 230px;
+  margin-left: 80px;
+  color: #02296d;
+  font-weight: 400;
+  position: relative;
+}
+
+.item-ofertas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  position: absolute;
+  margin-left: 65px;
+  margin-top: -40px;
+  position: absolute;
+}
+
+@media (max-width: 760px) {
+  .item-ofertas {
+    grid-template-columns: 1fr;
+    max-width: auto;
+  }
+  @media (max-width: 600px) {
+    .item-ofertas img {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      width: 490px;
+      height: 130px;
+    }
+  }
+}
+/*------------------------------------*/
+
+/*Novidades que acabaram de chegar pra você!*/
+.novidade {
+  display: flex;
+  gap: 15px;
+  margin-top: -10px;
+  position: absolute;
+}
+
+.novidade-texto {
+  font-size: 24px;
+  padding: 15px;
+  margin-top: 220px;
+  margin-left: 70px;
+  color: #02296d;
+  font-weight: 400;
+  position: relative;
+}
+
+.novidade-1 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  margin-left: 40px;
+  padding: 30px 10px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.novidade-1 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+  margin-left: 20px;
+}
+
+.novidade-2 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.novidade-2 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+
+.novidade-3 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.novidade-3 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+
+.novidade-4 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.novidade-4 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+
+.novidade-5 {
+  background-color: #fff;
+  width: 175px;
+  height: 300px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  padding: 30px 12px 16px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+.novidade-5 p {
+  position: relative;
+  font-size: 13px;
+  color: #333333;
+  width: 140px;
+}
+/*------------------------------------*/
+
+/*Clicou, Chegou! Abasteça sua despensa em nosso mercado online*/
+
+/*.clicou {
+  display: block;
+  gap: 20px;
+  position: relative;
+}*/
+
+.clicou-texto {
+  font-size: 24px;
+  padding: 15px;
+  margin-top: 400px;
+  margin-left: 60px;
+  color: #02296d;
+  font-weight: 400;
+  position: relative;
+}
+
+.imagem-item1 {
+  border-radius: 6px;
+  width: 285px;
+  height: 346px;
+  margin-left: 18px;
+  position: absolute;
+}
+
+.imagem-item2 {
+  border-radius: 6px;
+  width: 285px;
+  height: 346px;
+  margin-left: 332px;
+  position: absolute;
+}
+
+.imagem-item3 {
+  border-radius: 6px;
+  width: 513px;
+  height: 168px;
+  margin-left: 630px;
+  position: absolute;
+}
+
+.imagem-item4 {
+  border-radius: 6px;
+  width: 251px;
+  height: 173px;
+  margin-top: 173px;
+  margin-left: 630px;
+  position: absolute;
+}
+
+.imagem-item5 {
+  border-radius: 6px;
+  width: 251px;
+  height: 173px;
+  margin-top: 173px;
+  margin-left: 892px;
+  position: absolute;
+}
+/*------------------------------------*/
+
+/*Sua loja preferida, com descontos incríveis!*/
+
+.desconto-texto {
+  font-size: 24px;
+  padding: 15px;
+  margin-top: 370px;
+  margin-left: 60px;
+  color: #02296d;
+  font-weight: 400;
+  position: absolute;
+}
+
+.desconto-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  position: absolute;
+  margin-top: 430px;
+  margin-left: 40px;
+}
+
+.desconto-img img {
+  width: 213px;
+  height: 280px;
+}
+
+/*------------------------------------*/
+
+/*Regras das promoções Carrefour*/
+.regras {
+  padding: 9px 50px;
+  position: relative;
+  margin-top: 800px;
+  margin-left: 500px;
+  border: solid 1px #1e5bc6;
+  border-radius: 4px;
+  box-shadow: 10px solid #022768;
+}
+
+.regras-texto {
+  position: relative;
+  font-size: 14px;
+  color: #02296d;
+  position: absolute;
+  margin-top: 760px;
+  margin-left: 500px;
+}
+
+.regras-texto a {
+  padding: 9px 40px;
+  border-radius: 4px;
+  color: #1e5bc6;
+  border: 1px solid #1e5bc6;
+  box-shadow: 3px solid #333333;
+}
+
+.regras-texto a:hover {
+  color: #2e9bf8;
+  border: 1px solid #2e9bf8;
+  transition: 0.1s ease-out;
+}
+
+.icon-desconto {
+  position: absolute;
+  margin-top: 758px;
+  margin-left: 510px;
+}
+/*------------------------------------*/
+/* Publicidade */
+.publicidade {
+  display: block;
+  background: #fafafa;
+  max-width: 83%;
+  position: relative;
+  margin-top: 850px;
+  margin-left: 80px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.publicidade-texto {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-top: -30px;
+}
+
+.publi-img {
+  margin-left: 60px;
+}
+/*------------------------------------*/
+
+/*Serviços Carrefour*/
+
+.servicos-carrefour {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  position: relative;
+}
+
+.servico-carrefour li {
+  width: 130px;
+  display: block;
+}
+
+.servico-titulo {
+  font-size: 13px;
+  color: #333333;
+}
+
+.servico-texto {
+  font-size: 12px;
+  color: #898989;
+}
+
+.servico-texto a {
+  text-decoration: underline;
+  color: #1e5bc6;
+}
+
+.servico-texto a:hover {
+  color: #2e9bf8;
+}
+
+.mercado-online {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 80px;
+}
+
+.cartao-carrefour {
+  position: absolute;
+  margin-left: 325px;
+  margin-top: -100px;
+}
+
+.retire-carro {
+  position: absolute;
+  margin-left: 570px;
+  margin-top: -100px;
+}
+
+.retire-loja {
+  position: absolute;
+  margin-left: 815px;
+  margin-top: -100px;
+}
+
+.receba-casa {
+  position: absolute;
+  margin-left: 1060px;
+  margin-top: -100px;
+}
+
+/*Banner como posso te ajudar*/
+.banner4 {
+  max-width: 100%;
+  height: 100px;
+}
+
+/*footer*/
+.fale-conosco {
+  display: flex;
+  gap: 140px;
+  margin-left: 45px;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+
+.atendimento {
+  color: #707070;
+  margin-top: 0px;
+  margin-left: 45px;
+  font-size: 14px;
+  position: absolute;
+  width: 140px;
+  line-height: 2.2;
+}
+
+.atendimento a {
+  color: #707070;
+}
+
+.atendimento a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.minhas-listas {
+  margin-top: 0px;
+  margin-left: 280px;
+  font-size: 14px;
+  position: absolute;
+  line-height: 2;
+}
+
+.minhas-listas a {
+  color: #707070;
+}
+
+.minhas-listas a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.marketplace a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0000ee;
+}
+
+.institucional {
+  margin-top: 0px;
+  margin-left: 480px;
+  font-size: 14px;
+  position: absolute;
+  line-height: 2;
+}
+
+.institucional a {
+  color: #707070;
+}
+
+.institucional a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.politicas-carrefour {
+  margin-top: 0px;
+  margin-left: 710px;
+  font-size: 14px;
+  position: absolute;
+  width: 220px;
+  line-height: 2;
+}
+
+.politicas-carrefour a {
+  color: #707070;
+}
+
+.politicas-carrefour a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+
+.regioes-metropolitanas {
+  margin-top: 0px;
+  margin-left: 1030px;
+  font-size: 14px;
+  position: absolute;
+  width: 220px;
+}
+
+.telefone-bt1 {
+  margin-top: 30px;
+  margin-left: 1030px;
+  color: #1e5bc6;
+  padding: 10px 70px;
+  border: 1px solid #1e5bc6;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: #fff;
+  position: relative;
+}
+
+.icone-tel1{
+  margin-left: -170px;
+  margin-top: 38px;
+  position: absolute;
+}
+
+.demais-regioes {
+  margin-top: 15px;
+  margin-left: 1030px;
+  font-size: 14px;
+  position: absolute;
+  width: 200px;
+}
+
+.telefone-bt2 {
+  margin-top: 45px;
+  margin-left: 1030px;
+  color: #1e5bc6;
+  padding: 11px 56px;
+  border: 1px solid #1e5bc6;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: #fff;
+}
+
+.icone-tel2{
+  margin-left: -180px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.horario-atendimento {
+  margin-top: 20px;
+  margin-left: 1030px;
+  font-size: 12px;
+  position: absolute;
+  line-height: 1.1;
+  width: 140px;
+}
+
+.destaque-horario {
+  font-weight: bold;
+}
+
+.horario-brasilia{
+  margin-top: 60px;
+  margin-left: 1030px;
+  font-size: 11px;
+  position: absolute;
+}
+
+.hrfooter {
+  margin-top: 300px;
+}
+
+/* Formas de pagamento */
+.formas-pagamento {
+  font-size: 14px;
+  margin-top: 40px;
+  margin-left: 70px;
+  position: absolute;
+}
+
+.formasdepagamento1 {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.formasdepagamento1 img {
+  width: 32px;
+  height: 23px;
+  position: relative;
+}
+
+.formasdepagamento2 {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+.formasdepagamento2 img {
+  width: 32px;
+  height: 23px;
+  position: relative;
+}
+
+.p1 {
+  font-size: 12px;
+  color: #707070;
+  margin-left: 70px;
+  margin-top: 200px;
+  position: absolute;
+}
+
+.p2 {
+  font-size: 11px;
+  color: #707070;
+  margin-left: 70px;
+  margin-top: 218px;
+  position: absolute;
+}
+
+.p3 {
+  font-size: 11px;
+  color: #707070;
+  margin-left: 70px;
+  margin-top: 260px;
+  position: absolute;
+}
+
+.p4 {
+  font-size: 12px;
+  color: #707070;
+  margin-left: 70px;
+  margin-top: 300px;
+  position: absolute;
+}
+
+.selo-carrefour {
+  margin-top: 80px;
+  margin-left: 800px;
+  position: absolute;
+}
+
+.ambiente-seguro {
+  width: 120px;
+  height: 40px;
+  padding: 20px;
+}
+
+.sitemap {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+  color: #2f67ca;
+  margin-top: 350px;
+}
+
+.seta-topo {
+  padding: 20px;
+  position: fixed;
+  left: -10px;
+  bottom: -14px;
+}
+
+.carina img {
+  height: 90px;
+  width: 90px;
+  padding: 20px;
+  margin-left: 1140px;
+  border-radius: 60px;
+  bottom: 5px;
+  position: fixed;
+}
+
+/*------------------------------------*/
